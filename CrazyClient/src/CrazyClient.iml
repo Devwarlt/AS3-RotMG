@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="Flex" version="4">
+  <component name="FlexBuildConfigurationManager" active="WebMain">
+    <configurations>
+      <configuration name="WebMain" pure-as="true" main-class="WebMain" output-file="WebMain.swf" output-folder="$MODULE_DIR$/../out">
+        <dependencies target-player="18.0">
+          <entries>
+            <entry library-id="bd3b0000-83f4-402b-a458-53f2c45cee0b">
+              <dependency linkage="Merged" />
+            </entry>
+          </entries>
+          <sdk name="Flex SDK 4.9.1" />
+        </dependencies>
+        <compiler-options />
+        <packaging-air-desktop />
+        <packaging-android />
+        <packaging-ios />
+      </configuration>
+    </configurations>
+    <compiler-options />
+  </component>
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$" isTestSource="false" />
+    </content>
+    <orderEntry type="jdk" jdkName="Flex SDK 4.9.1" jdkType="Flex SDK Type (new)" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library" exported="">
+      <library type="flex">
+        <properties id="bd3b0000-83f4-402b-a458-53f2c45cee0b" />
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../libs" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+        <jarDirectory url="file://$MODULE_DIR$/../libs" recursive="false" />
+      </library>
+    </orderEntry>
+  </component>
+</module>
